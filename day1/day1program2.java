@@ -5,7 +5,7 @@ public class day1program2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("value of n=");
         int n = sc.nextInt();
-        int p=1,i;
+        int i;
          for(i=1;i<=10; i++)
          {
             System.out.println(n +"*" + i + "=" +(n*i));
